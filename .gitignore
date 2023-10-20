@@ -1,0 +1,19 @@
+.idea
+*.iml
+**/.DS_Store
+
+### Maven Build
+*/target/*
+
+### CDK-specific ignores ###
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+### aws-sam folders for local testing
+*/.aws-sam/*

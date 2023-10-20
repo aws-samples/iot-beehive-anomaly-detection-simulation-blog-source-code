@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.beehive</groupId>
+  <artifactId>beehive-anomaly-detection-simulation</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>beehive-anomaly-detection-simulation</name>
+
+  <modules>
+    <module>iot-beehive-events-simulator-lambda</module>
+    <module>iot-event-persistence-lambda</module>
+    <module>iot-anomaly-detection-lambda</module>
+  </modules>
+
+</project>
