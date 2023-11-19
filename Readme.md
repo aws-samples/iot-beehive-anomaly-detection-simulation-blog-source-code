@@ -1,5 +1,5 @@
 # Serverless anomaly detection in bee hives IoT events with AWS Lambda and CDK Source Code
-This is an accompaniment to the [Blog article](https://amazon.awsapps.com/workdocs/index.html#/document/c19542dd27745fbf34d2b63eec513ab8e09a9ee1d79411c33cc68962a51e0061) and contains a hands-on example of how to create and test your own serverless anomaly detector with AWS IoT Core, AWS Lambda and CDK. In the simulation scenario IoT events containing the simulated weight of a beehive are sent to AWS IoT Core. An anomaly detector running on AWS Lambda generates an anomaly score for each event. IoT events are persisted to Amazon DynamoDB.
+This is an accompaniment to the [Blog article](https://aws.amazon.com/blogs/iot/serverless-iot-anomaly-detection/) and contains a hands-on example of how to create and test your own serverless anomaly detector with AWS IoT Core, AWS Lambda and CDK. In the simulation scenario IoT events containing the simulated weight of a beehive are sent to AWS IoT Core. An anomaly detector running on AWS Lambda generates an anomaly score for each event. IoT events are persisted to Amazon DynamoDB.
 
 #### Simulation architecture
 ![simulation-architecture.png](architecture%2Fsimulation-architecture.png)
